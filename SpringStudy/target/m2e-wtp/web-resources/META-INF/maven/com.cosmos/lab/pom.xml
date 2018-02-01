@@ -3,7 +3,6 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.cosmos</groupId>
-	<artifactId>lab</artifactId>
 	<name>SpringStudy</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
@@ -110,8 +109,14 @@
             <artifactId>mybatis</artifactId>
             <version>3.4.1</version>
         </dependency>
- 
- 
+        
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+   			 <groupId>org.hibernate</groupId>
+   			 <artifactId>hibernate-core</artifactId>
+ 			   <version>5.2.10.Final</version>
+		</dependency>
+         
         <!-- MyBatis-Spring -->
         <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
         <dependency>
@@ -221,4 +226,5 @@
             </plugin>
         </plugins>
     </build>
+    <artifactId>lab</artifactId>
 </project>

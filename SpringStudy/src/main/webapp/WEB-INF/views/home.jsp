@@ -39,7 +39,7 @@
                         <a href="/photos">Photos</a>
                     </li>
                     <li>
-                        <a href="/board">Board</a>
+                        <a href="/board/register">Board</a>
                     </li>
                      <li>
                         <a href="/Login">Login</a>
@@ -159,7 +159,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="copyright text-muted">Copyright &copy; Cosmos Lab 2018</p>
                 </div>
             </div>
         </div>

@@ -56,9 +56,9 @@ public class HomeController {
 		return "photos";
 	}
 	
-	@RequestMapping({ "/board" })
+	@RequestMapping({ "/board/register" })
 	public String board(Model model) {
-		return "board";
+		return "board/register";
 	}
 	
 
